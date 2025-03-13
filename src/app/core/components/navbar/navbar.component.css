@@ -1,0 +1,24 @@
+.mega-menu {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background-color: white;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    z-index: 50;
+    margin-left: calc(-50vw + 50%);
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+.menu-item:hover .mega-menu {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+    background-color: #f1f5f9; /* Slate background color */
+}
+.menu-item:hover .mega-menu {
+    display: block;
+}
